@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s04k019",
-  "description": "https://v2.scrimba.com/the-frontend-developer-career-path-c0j/~05i",
+  "name": "basketball-scorecard",
+  "description": "scorecard for basketball",
   "scripts": {
     "start": "vite",
     "dev": "vite",
