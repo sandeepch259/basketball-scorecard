@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.outer-container {
+    background-color: #1b244a;
+    width: 575px;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 2px 2px 5px #1b244a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1b244a;
+    color: #eee;
+    border-radius: 16px;
+}
+
+.container h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 68px;
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.score {
+    font-family: "Cursed Timer ULiL", sans-serif;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    font-weight: 400;
+    font-size: 90px;
+    align-content: center;
+    text-align: center;
+    color: #f94f6d;
+    margin-bottom: 26px;
+}
+
+.score-btns-container {
+    display: flex;
+    justify-content: space-between;
+    background: inherit;
+    width: 155px;
+    height: 45px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid #9aabd8;
+    background: inherit;
+    color: #9aabd8;
+    font-family: inherit;
+}
+
+.reset-btn {
+    align-self: center;
+    margin-top: 7px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #f94f6d;
+    border: none;
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.leading {
+    border: 2px solid #f94f6d;
+}
