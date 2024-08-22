@@ -3,7 +3,7 @@ let homeScore = 0,
 const homeScoreDisplay = document.getElementById("home-score");
 const guestScoreDisplay = document.getElementById("guest-score");
 
-function reset() {
+export function reset() {
   homeScoreDisplay.textContent = homeScore;
   guestScoreDisplay.textContent = guestScore;
   homeScoreDisplay.classList.remove("leading");
@@ -11,7 +11,7 @@ function reset() {
 }
 reset();
 
-function addScore(score, el) {
+export function addScore(score, el) {
   if (el.parentNode.parentNode.id === "home") {
     homeScoreDisplay.textContent = +homeScoreDisplay.textContent + score;
   } else {
@@ -29,3 +29,6 @@ function addScore(score, el) {
     guestScoreDisplay.classList.remove("leading");
   }
 }
+
+window.addScore = addScore;
+window.reset = reset;
